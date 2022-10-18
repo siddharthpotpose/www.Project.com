@@ -1,6 +1,6 @@
 
 function fun(num1,num2){
-    return num1+num2                 //its called node return Function
+    return num1+num2                 //its called return Function
 }
 let ans=fun(33,11)
 console.log(ans)
@@ -14,7 +14,7 @@ console.log("your doing a great ="+a)
 // ----------------------------------------------
 function indu(num5,num6){
     return num5+num6
-}                                  // //its called node return Function
+}                                  // //its called  return Function
 let b= indu(03,03)
 console.log(b)
 // ----------------------------------
