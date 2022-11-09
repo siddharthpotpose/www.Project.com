@@ -245,6 +245,99 @@ do{
 }while(s<=10)
 // -----------------------------------------
 
+// function simple 
+
+function funs(){
+    console.log("hello this is a simple function")
+}
+funs();
+// -------------------------------------------------------
+
+// parametarised / argument function 
+
+function fun1(ss,pp){
+ ss=ss+pp
+console.log("this is a argument function = "+ ss)
+}
+fun1(20,20)
+// ----------------------------------------------------------------
+// return function 
+
+function funs3(aa,bb){
+    return aa*bb
+    
+   
+
+} 
+let cc=funs3(10,5);
+console.log("this is a retun function="+ cc);
+// -------------------------------------------------------------------------
+// statement for loop 
+for (w=1;w<=10;w++){
+    console.log( "even number = "+w)
+}
+// -----------------------------------------------------
+// while loop 
+
+let qq=1;
+while (qq<=10){
+    console.log("while loop ="+qq);
+    qq++
+}
+// ----------------------------------------------------
+
+// do while loop 
+let ee=1;
+do{
+
+    console.log("this is a do while loop mul ="+ee*5)
+    ee++
+} while (ee<=10);
+// ------------------------------------------------------------------------
+// statement branching 
+ let markss=47;
+ if (markss>=35){
+    console.log("your are  pass = "+markss)
+ }
+ else {
+    console.log("you are fail")
+ }
+// -------------------------------------------------------------------
+// if else ladder 
+
+let dayss=3;
+if (dayss==1){
+    console.log("today is monday")
+}
+else if (dayss==2){
+    console.log("today is tuesday")
+}
+else if (dayss==3){
+    console.log("today is wednessday")
+}
+else {
+    console.log("somethimg wrong")
+}
+// ----------------------------------------------------------
+// switch case 
+
+let  dayyss=3;
+switch (dayyss) {
+    case 1:
+        console.log("monday")
+        
+        break;
+     case 2:
+        console.log("tuesday")
+        break;
+    case 3:
+        console.log("wednesday")
+        break;
+
+    default:
+        console.log("something wrong")
+        break;
+}
 
 
 

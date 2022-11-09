@@ -37,3 +37,19 @@ function siddhu(indu)
 }
 siddhu(03);
 // ------------------------------------------
+function fun2(num11,num12){
+    return num11+num12;                 //its called return Function
+}
+let ans=fun2(33,11)
+console.log(ans)
+// -----------------------------------------------------
+
+// prompt parametarised
+let a=prompt("enter a value ")
+let b=prompt("enter value for multiplication ")
+
+function fun3(a,b){
+    let d=a*b
+    console.log("multiplication of a+b+c = "+d)
+}fun3(a,b)
+alert("thank you")

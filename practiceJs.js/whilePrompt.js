@@ -17,6 +17,7 @@ do {
     print=prompt("do you want print yes/no")
     console.log("print number="+print)
 }while(print==="yes")
+// --------------------------------------------------------------
 
 
 
