@@ -67,7 +67,7 @@ p a{
 }
 
 /* ----------------------------------------------------------- */
-@media (max-width:800px){
+/* @media (max-width:800px){
     section{
         height: 100%;
         width: 100%;
@@ -76,4 +76,4 @@ p a{
     input{
         text-align: center;
     }
-}
+} */
