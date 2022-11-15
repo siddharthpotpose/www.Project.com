@@ -123,6 +123,10 @@ h5{
 p{
     padding-bottom: 0px;
 }
+.typing{
+    color: green;
+    font-weight: bold;
+}
 .sec-one{
     height: 5vh;
     width: 80vw;
