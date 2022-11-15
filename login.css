@@ -16,6 +16,7 @@ section{
     position: relative;
     top: 100px;
     left: 500px;
+    
 }
 h1{
     padding-top: 50px;
@@ -67,7 +68,7 @@ p a{
 }
 
 /* ----------------------------------------------------------- */
-/* @media (max-width:600px){
+/* @media (max-width:500px){
     section{
         height: 100%;
         width: 100%;

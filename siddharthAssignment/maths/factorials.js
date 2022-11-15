@@ -7,3 +7,13 @@ for(i=1;i<=n;i++){
 }
 }
 factorial(5)
+// ========================================================
+
+// function fun(fact){
+//     let mul=1;
+// for(i=1;i<=fact;i++){
+//     mul=mul*i;
+//     console.log(mul)
+// }
+// }
+// fun(7)
