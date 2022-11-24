@@ -13,3 +13,20 @@ for(let i=0;i<=n;i++){
 }
 }
 fibonacci(7)
+
+// -----------------------------------------------------------------
+
+function fun(a){
+let firstNum=0;
+let secondNum=1;
+let nextNum=0;
+for(n=0;n<=a.length-1;n++){
+
+    firstNum=secondNum;
+    secondNum=nextNum;
+    nextNum=firstNum;
+    console.log(firstNum)
+
+}
+} 
+fun(9);

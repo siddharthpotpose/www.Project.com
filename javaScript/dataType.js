@@ -19,10 +19,12 @@ var isPaid=true;
 // declarinng variable 
 let modeOfPayment;
 
+
 //takeing input from user 
 modeOfPayment = prompt("mode of payment?");
 
 //output to user
 alert(firstName + " successfully bought " +courseName + " using " +modeOfPayment);
+
 
 
